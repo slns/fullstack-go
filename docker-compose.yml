@@ -16,9 +16,9 @@ services:
 
   fullstack-mysql:
     image: mysql:5.7
-    container_name: full_db_mysql
+    container_name: full_db_mysql_1
     ports: 
-      - 33306:3306
+      - 30306:3306
     environment: 
       - MYSQL_ROOT_HOST=${DB_HOST} 
       - MYSQL_USER=${DB_USER}
@@ -32,7 +32,7 @@ services:
   
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
-    container_name: phpmyadmin_container
+    container_name: phpmyadmin_container_1
     depends_on:
       - fullstack-mysql
     environment:
@@ -55,3 +55,4 @@ volumes:
 networks:
   fullstack:
     driver: bridge
+
