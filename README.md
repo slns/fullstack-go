@@ -1,5 +1,15 @@
 # fullstack-go
 
+## Copy example.env
+
+> cp example.env .env
+
+---
+
+## Change ENV file to your credentials. and values of the Database 
+
+---
+
 ## Install depedences
 
 ```go

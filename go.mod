@@ -10,5 +10,5 @@ require (
 	github.com/joho/godotenv v1.3.0
 	github.com/nsf/jsondiff v0.0.0-20200515183724-f29ed568f4ce
 	golang.org/x/crypto v0.0.0-20201203163018-be400aefbc4c
-	gopkg.in/go-playground/assert.v1 v1.2.1 // indirect
+	gopkg.in/go-playground/assert.v1 v1.2.1
 )
