@@ -44,6 +44,7 @@ go get github.com/nsf/jsondiff
 - [DeleteUser](http://localhost:8080/users/2)  -  **With token**
 - [CreateUser](http://localhost:8080/users)    -  Without token
 - [GetUser](http://localhost:8080/users/1)     -  Without token
+- [PostCompare](http://localhost:8080/compare) -  Without token(**to compare two JSONs**)
 
 ## Run containers
 
