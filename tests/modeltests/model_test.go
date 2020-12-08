@@ -13,6 +13,8 @@ import (
 )
 
 var server = controllers.Server{}
+var userInstance = models.User{}
+var postInstance = models.Post{}
 
 func TestMain(m *testing.M) {
 	err := godotenv.Load(os.ExpandEnv("../../.env"))
@@ -62,7 +64,7 @@ func seedOneUser() (models.User, error) {
 	if err != nil {
 		log.Fatal(err)
 	}
-	
+
 	user := models.User{
 		Nickname: "Test",
 		Email:    "test@gmail.com",
